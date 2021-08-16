@@ -1,0 +1,133 @@
+body{
+	background-image:url("images/lib2.jpg");
+	background-size:cover;
+	overflow:hidden;
+	background-color:black;
+}
+#main-admin{
+	text-align:center;
+	margin:100px;
+}
+.add-btn{
+	width:200px;
+	height:50px;
+	margin-top:10px;
+	color:white;
+	margin-bottom:10px;
+	background-color:#7B3F00;
+}
+
+.update-btn{
+	width:200px;
+	height:50px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#7B3F00;
+	color:white;
+}
+
+.del-btn{
+	width:200px;
+	height:50px;
+	margin-top:10px;
+	margin-bottom:10px;
+	color:white;
+	background-color:#7B3F00;
+}
+
+.search-btn{
+	width:200px;
+	height:50px;
+	margin-top:10px;
+	margin-bottom:10px;
+	color:white;
+	background-color:#7B3F00;
+}
+
+.order-btn{
+	width:200px;
+	height:50px;
+	margin-top:10px;
+	margin-bottom:10px;
+	color:white;
+	background-color:#7B3F00;
+}
+
+.adm-name{
+	color:Cyan;
+	font-size:100px;
+	margin-top:50px;
+	
+}
+
+.adm-page{
+	margin:25px;
+}
+
+.book-id{
+	margin:10px;
+	width:200px;
+	height:30px;
+}
+.book-title{
+	margin:10px;
+	width:200px;
+	height:30px;
+}
+.book-author{
+	margin:10px;
+	width:200px;
+	height:30px;
+}
+.book-cost{
+	margin:10px;
+	width:200px;
+	height:30px;
+}
+.book-quantity{
+	margin:10px;
+	width:200px;
+	height:30px;
+}
+.book-add{
+	margin:10px;
+	width:100px;
+	height:25px;
+}
+
+.menu{
+	width:400px;
+	float:left;
+	height:70px;
+}
+
+ul{
+	float:left;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	align-text:center;
+}
+
+ul li{
+	list-style:none;
+	margin-left:62px;
+	margin-top:27px;
+	font-size:20px; 
+	width:150px;
+	height:50px;
+}
+
+ul li a{
+	text-decoration:none;
+	color:white;
+	font-family:Arial;
+	font-weight:bold;
+	transition:0.4s ease-in-out;
+	border:2px solid white;
+	background-color:black;
+}
+
+ul li a:hover{
+	color:red;
+}

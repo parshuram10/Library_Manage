@@ -1,0 +1,66 @@
+body{
+	background-image:url("images/lib2.jpg");
+	background-size: cover;
+	overflow:hidden;
+	background-color:black;
+}
+
+#lib-name{
+	color:red;
+	font-size:25px;
+	margin: 50px;
+	width:700px;
+	height: 250px;
+	background-color:black;
+	float: left;
+	font-family: cursive;
+	border-radius: 20px;
+}
+
+#btns{
+	clear: both;
+	margin-left: 250px;;
+	margin-right:250px;
+	padding: 50px;
+	text-align:center;
+	background-color:white;
+	border-radius: 20px;
+}
+
+.admin-btn{
+	
+	margin-left:20px;
+	margin-right:20px;
+	width:160px;
+	height:50px;
+}
+
+.admin-btn:hover{
+	background-color: blueviolet;
+	color: cornsilk;
+}
+.student-btn{
+	width:160px;
+	height:50px;
+	margin-left:20px;
+	margin-right:20px;
+}
+.student-btn:hover{
+	background-color: blueviolet;
+	color: cornsilk;
+}
+.admin-img{
+	width:160px;
+	height:100px;
+	margin-left:20px;
+	margin-right:20px;
+	border: 1px solid #555;
+}
+
+.student-img{
+	width:160px;
+	height:100px;
+	margin-left:20px;
+	margin-right:20px;
+	border:1px solid #555;
+}

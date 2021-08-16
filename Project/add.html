@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Add</title>
+		<link href="admin.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="main-admin">
+		<div class="adm-name"><i>Admin</i></div>
+		<div>
+			<button class="add-btn">Add Books</button>
+			<button class="update-btn">Update Books</button>
+			<button class="del-btn">Delete Books</button>
+			<button class="search-btn">Search Books</button>
+			<button class="order-btn">View Books</button>
+		</div>
+
+		<form action="backend.php" class="adm-page">
+			<div>
+				Name <input type="text" class="book-id">
+			</div>
+			<div>
+				Title <input type="text" class="book-title">
+			</div>
+			<div>
+				Author <input type="text" class="book-author">
+			</div>
+			<div>
+				Cost <input type="number" class="book-cost">
+			</div>
+			<div>
+				Quantity <input type="number" class="book-quant">
+			</div>
+			<div>
+				<input type="submit" value="submit" class="book-add">
+			</div>
+		</form>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script type:"text/javascript" src="admin.js"></script>
+	</body>
+</html>
